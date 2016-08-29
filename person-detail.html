@@ -12,7 +12,23 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
-
+<style>
+    .shop-nav ul li a{
+        color: #333;
+    }
+    .shop-nav ul{
+        padding-left: 0;
+    }
+    .shop-nav ul li{
+        border-right: 1px solid #333;
+    }
+    .contact-us{
+        position: absolute;
+        right: 15px;
+        top:30px;
+        background-color: #CEC6C6;
+    }
+</style>
 </head>
 <body>
 
@@ -67,22 +83,21 @@
 
             </div>
         </div>
-        <div class="shop-main-title">
-            <h3>小七模特</h3>
+        <div class="shop-main-title" style="background: url('images/person-detail.png');    background-size: cover;    color: #333;">
+            <h3>小7/模特</h3>
             <p>
                 <span>车展</span>
                 <span>发布会</span>
                 <span>服装拍摄</span>
-                <span class="contact-us" onclick="window.location.href='shop-guaijiao-detail.html'"><span class="glyphicon glyphicon-user"></span> 联系我们</span>
+
 
             </p>
         </div>
-        <div class="shop-nav form-group">
+        <div class="shop-nav form-group" style="    background-color: #F7F6F4;">
             <ul>
-                <li class="active"><a href="printing-photo.html">首页</a></li>
-                <li><a href="shop-comment.html">交易评价</a></li>
+                <li><a href="">首页</a></li>
+                <li><a href="">交易评价</a></li>
                 <li><a href="">交易记录</a></li>
-                <li><a href="">自家档案</a></li>
             </ul>
         </div>
         <div class="row form-group">
@@ -96,6 +111,7 @@
                 </div>
             </div>
             <div class="col-md-6" style="padding-left: 50px;">
+                <span class="contact-us btn-buy"><span class="glyphicon glyphicon-user"></span> 联系我们</span>
                 <img class="shop-detail-name" src="images/xiaoqi-mote.png" style="width: 110px;">
                 <p><img src="images/fa.jpg"> &nbsp;&nbsp;<img src="images/icon-plus.png" width="14" title="添加到群聊" style="cursor: pointer"> </p>
                 <p>身高：175</p>
@@ -112,7 +128,7 @@
                 </p>
                 <div class="btn-suanjia">
                     <img src="images/zishusuanjia.jpg" id="price">
-                    <img class="btn-buy" src="images/btn-buy.jpg" width="100">
+                    <img src="images/lijiyuyue.png" width="100" onclick="window.location.href='selectAddress.html'">
                 </div>
                 <div class="price-content hidden">
                     <p class="">
@@ -183,7 +199,7 @@
                     <div class="">
                         <div class="buy-content-body row">
                             <div class="col-xs-9" >
-                                <img class="title" src="images/shop-name-1.png">
+                                <img class="title" src="images/talk-title.png">
                                 <div class="item">
                                     <div class="title">
                                         <span>2016/4/7 7:00</span>
@@ -219,19 +235,9 @@
                                 </div>
                             </div>
                             <div class="col-xs-3">
-                                <img src="images/shop-1.png" width="100%">
-                                <img  src="images/shop-title-1.png" width="150" style="margin-top: 30px">
-                                <p class="form-group" style="margin-top: 30px;font-size: 12px">
-                                    <span>评分：</span>
-                                    <img src="images/icon-heart.png" width="12">
-                                    <img src="images/icon-heart.png" width="12">
-                                    <img src="images/icon-heart.png" width="12">
-                                    <img src="images/icon-heart.png" width="12">
-                                    <img src="images/icon-heart.png" width="12">
-                                    <span>4.7</span>
-                                </p>
+                                <img src="images/talk-name.png" width="100%">
                                 <div class="btn-lijigoumai" onclick="window.location.href='selectAddress.html'">
-                                    <img src="images/btn-lijigoumai.jpg" width="120" >
+                                    <img src="images/lijiyuyue.png" width="100" >
                                 </div>
                             </div>
                         </div>
