@@ -45,6 +45,7 @@
     width: 19%;
     float: left;
     margin-right: 1%;
+    cursor: pointer;
 }
 .goods-list .item p{
     margin-bottom: 0;
