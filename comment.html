@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>评价</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container my-order">
+    <div class="comment">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="images/LOGO.png" width="100"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <form class="navbar-form navbar-left main-search" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>搜索</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><span class="location">郑州<span class="caret"></span></span></a></li>
+                        <li class="" id="userMenu"><a href=""><span class="glyphicon glyphicon-user"></span></a></li>
+
+                    </ul>
+                    <div class="user-menu hidden">
+                        <ul>
+                            <li>KING</li>
+                            <li><a href="my-order.html"><span class="glyphicon glyphicon-list-alt"></span>我的订单</a></li>
+                            <li><a href="my-ollection.html"><span class="glyphicon glyphicon-heart-empty"></span>收藏夹</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-map-marker"></span>我的足迹</a></li>
+                            <li><a href="set.html"><span class="glyphicon glyphicon-cog"></span>设置</a></li>
+                            <li><a href="login.html"><span class="glyphicon glyphicon-off"></span>退出</a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="title">
+            <div class="row">
+                <div class="col-md-4">
+                    <span>我的订单</span>
+                </div>
+                <div class="col-md-8">
+                    <div class="pull-right">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <input type="text" placeholder="请输入订单标题或者编号"><span class="search-order">搜索订单</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="images/comment-1.png" alt="...">
+                    <p>JIM</p>
+                    <p>飞天海报设计</p>
+                </a>
+            </div>
+            <div class="media-body">
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> <img src="images/comment-2.png">
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">  <img src="images/comment-3.png">
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">  <img src="images/comment-4.png">
+                </label>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="8"></textarea>
+
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-default" type="button">上传照片</button>
+                            <label class="radio-inline pull-right">
+                                <input type="radio" name="inlineRadios" id="inlineRadio2" value="option2">  公开
+                            </label>
+                            <label class="radio-inline pull-right">
+                                <input type="radio" name="inlineRadios" id="inlineRadio3" value="option3"> 匿名
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="title">
+            <div class="row">
+                <div class="col-md-3">
+                    <span>店铺动态评分</span>
+                </div>
+                <div class="col-md-8">
+                    <div class="star">
+                       <span>订单完成的质量: </span><img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                    </div>
+                    <div class="star">
+                        <span>卖家的工作速度: </span><img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                    </div>
+                    <div class="star">
+                        <span>卖家的服务态度: </span><img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                        <img src="images/icon-heart.png">
+                    </div>
+                    <div class="star">
+                        <button  type="button" onclick="window.location.href='comment-success.html'">发表评论</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('#userMenu').hover(
+            function(){
+                $('.user-menu').removeClass('hidden');
+                $(".user-menu").mouseleave(function(){
+                    $(this).addClass('hidden');
+                });
+            }
+    )
+</script>
+</body>
+</html>

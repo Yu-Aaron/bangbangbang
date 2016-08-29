@@ -1,0 +1,39 @@
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bootstrap reset*/
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    margin-top: 2rem;
+}
+.navbar-brand{
+    padding-top: 10px;
+}

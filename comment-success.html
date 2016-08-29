@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>评价成功</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+<style>
+    .return-index{
+        padding: 5px 15px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(51, 51, 51);
+        font-size: 16px;
+    }
+    .pay .success .content{
+        padding: 30px 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img src="images/LOGO.png" width="100"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-left main-search" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a><span class="location">郑州<span class="caret"></span></span></a></li>
+
+                    <li class="" id="userMenu"><a href=""><span class="glyphicon glyphicon-user"></span></a></li>
+
+                </ul>
+                <div class="user-menu hidden">
+                    <ul>
+                        <li>KING</li>
+                        <li><a href="my-order.html"><span class="glyphicon glyphicon-list-alt"></span>我的订单</a></li>
+                        <li><a href="my-ollection.html"><span class="glyphicon glyphicon-heart-empty"></span>收藏夹</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-map-marker"></span>我的足迹</a></li>
+                        <li><a href="set.html"><span class="glyphicon glyphicon-cog"></span>设置</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-off"></span>退出</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="pay">
+        <div class="success">
+            <div class="title"><h3>您已评价成功</h3></div>
+            <div class="content">
+                <a href="index.html" class="return-index">返回首页</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<footer>
+    邦帮帮科技 © 2016
+</footer>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('#userMenu').hover(
+            function(){
+                $('.user-menu').removeClass('hidden');
+                $(".user-menu").mouseleave(function(){
+                    $(this).addClass('hidden');
+                });
+            }
+    )
+</script>
+</body>
+</html>

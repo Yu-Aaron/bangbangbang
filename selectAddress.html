@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>选择收货地址</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <style>
+        table td{
+            vertical-align: middle !important;
+        }
+        .address .list{
+            position: relative;
+            padding: 0;
+            height: 160px;
+        }
+        .address .list img{
+            position: absolute;
+        }
+        .address .list>div{
+            width: 90%;
+            margin: 0 auto;
+            position: relative;
+            top: 25px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img src="images/LOGO.png" width="100"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-left main-search" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a><span class="location">郑州<span class="caret"></span></span></a></li>
+
+                    <li class="" id="userMenu"><a href=""><span class="glyphicon glyphicon-user"></span></a></li>
+
+                </ul>
+                <div class="user-menu hidden">
+                    <ul>
+                        <li>KING</li>
+                        <li><a href="my-order.html"><span class="glyphicon glyphicon-list-alt"></span>我的订单</a></li>
+                        <li><a href="my-ollection.html"><span class="glyphicon glyphicon-heart-empty"></span>收藏夹</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-map-marker"></span>我的足迹</a></li>
+                        <li><a href="set.html"><span class="glyphicon glyphicon-cog"></span>设置</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-off"></span>退出</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="address">
+        <div class="title">
+            <img src="images/select-address.png" width="130">
+        </div>
+      <div class="content">
+
+          <form class="form-horizontal">
+              <div class="form-group">
+                  <label  class="col-sm-2 control-label">所在地区</label>
+                  <div class="col-sm-2">
+                      <select class="form-control">
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                      </select>
+                  </div>
+                  <div class="col-sm-8">
+                      <select class="form-control">
+                          <option>请选择省市区</option>
+                          <option>河南省</option>
+                          <option>河北省</option>
+                          <option>云南省</option>
+                          <option>海南省</option>
+                          <option>台湾省</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label  class="col-sm-2 control-label">详细地址</label>
+                  <div class="col-sm-10">
+                      <textarea class="form-control" rows="6" placeholder="建议您如实填写详细收货地址，例如街道名称、门牌号码、楼层好房间号等信息……"></textarea>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label  class="col-sm-2 control-label">邮政编码</label>
+                  <div class="col-sm-5">
+                      <input type="text" class="form-control" placeholder="如您不清楚邮递区号，请填写000000">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label  class="col-sm-2 control-label">收货人姓名</label>
+                  <div class="col-sm-10">
+                      <input type="text" placeholder="长度不超过25个字" class="form-control">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label  class="col-sm-2 control-label">手机号码</label>
+                  <div class="col-sm-2">
+                      <select class="form-control">
+                          <option>中国大陆 +86</option>
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                      </select>
+                  </div>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control" placeholder="电话号码、手机号码必须填一项">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label  class="col-sm-2 control-label">电话号码</label>
+                  <div class="col-sm-2">
+                      <select class="form-control">
+                          <option>中国大陆 +86</option>
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                          <option>中国大陆</option>
+                      </select>
+                  </div>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control" placeholder="区号">
+                  </div>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control" placeholder="电话号码">
+                  </div>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control" placeholder="分机">
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                          <label>
+                              <input type="checkbox"> 设置默认收货地址
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                      <button type="button" class="btn btn-warning" onclick="window.location.href='selectAddress2.html'">保存</button>
+                  </div>
+              </div>
+          </form>
+          <div class="row form-group" style="height: 225px;overflow-y: auto">
+              <div class="title">
+                  <img src="images/select-address.png" width="130">
+              </div>
+              <div class="col-xs-4">
+                  <div class="list">
+                      <img src="images/address-border-1.png" width="100%">
+                      <div>
+                          <div class="title"><span>河南 <strong>郑州</strong></span> <span>张梦华（收）</span></div>
+                          <div class="content">
+                              金水 杨金路 柳林镇新庄1号院 15515857690
+                              <span>修改</span>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="list">
+                      <img src="images/address-border-2.png" width="100%">
+                      <div>
+                          <div class="title"><span>河南 <strong>郑州</strong></span> <span>张梦华（收）</span></div>
+                          <div class="content">
+                              金水 杨金路 柳林镇新庄1号院 15515857690
+                              <span>修改</span>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="list">
+                      <img src="images/address-border-2.png" width="100%">
+                      <div>
+                          <div class="title"><span>河南 <strong>郑州</strong></span> <span>张梦华（收）</span></div>
+                          <div class="content">
+                              金水 杨金路 柳林镇新庄1号院 15515857690
+                              <span>修改</span>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+
+
+          </div>
+          <div class="row form-group">
+              <div class="title ">
+                  <img src="images/sure-order.png" width="130">
+              </div>
+              <div class="row">
+                  <div class="col-xs-12">
+                      <table class="table">
+                          <thead>
+                          <tr>
+                              <th>郑州溢彩喷绘写真</th>
+                              <th>单价（元）</th>
+                              <th>数量</th>
+                              <th>小计（元）</th>
+                              <th>配送方式</th>
+
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <td><img src="images/goods-img-sm.png"> 数码快印</td>
+                              <td>777.70</td>
+                              <td>1</td>
+                              <td>777.00</td>
+                              <td></td>
+                          </tr>
+                          <tr>
+
+                              <td colspan="5" style="text-align: right">实付款：<span style="font-size: 18px;color:#C22B31">￥777.70</span></td>
+
+                          </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+              <div class="place-order">
+                  <button type="button" onclick="window.location.href='paySuccess.html'">提交订单</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+</div>
+<footer>
+    邦帮帮科技 © 2016
+</footer>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('#userMenu').hover(
+            function(){
+                $('.user-menu').removeClass('hidden');
+                $(".user-menu").mouseleave(function(){
+                    $(this).addClass('hidden');
+                });
+            }
+    )
+</script>
+</body>
+</html>

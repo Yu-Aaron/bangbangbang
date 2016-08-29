@@ -1,0 +1,63 @@
+.search .form-control{
+    border: 2px solid #414141;
+    min-width: 35rem;
+    border-radius: 0;
+}
+.search .btn-default{
+    color: #fff;
+    background-color: #414141;
+    border-color: #414141;
+    border-radius: 0;
+    position: relative;
+    left: -4px;
+    padding: 6px 18px;
+}
+.carousel-inner .item{
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-inner .item>img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption{
+    text-align: right;
+    right: 20px;
+}
+.carousel-caption img{
+    width: 160px;
+}
+.image-list .col-xs-6{
+    height: 220px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.image-list .col-xs-6 span{
+    position: relative;
+    display: block;
+    right: 10px;
+    float: right;
+    bottom: 88px;
+
+}
+.goods-list .item p{
+    margin-bottom: 0;
+}
+.goods-list .item p img{
+    margin-right: 5px;
+}
+.goods-list .item>img{
+    width: 100%;
+
+}
+.item-title{
+    margin-bottom: 15px;
+}
+.item-title .more img{
+    position: relative;
+    top: 15px;
+}
+.navbar-form{
+    margin-left: 100px;
+}

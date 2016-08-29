@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+
+}
+body{
+    font-family: "Microsoft YaHei";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bootstrap reset*/
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    margin-top: 2rem;
+}
+.navbar-brand{
+    padding-top: 10px;
+}
